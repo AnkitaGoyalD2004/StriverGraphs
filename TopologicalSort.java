@@ -8,6 +8,7 @@ public class TopologicalSort {
        
     }
 
+    
     static boolean visited[];
     static Stack<Integer> s = new Stack<>();
 
