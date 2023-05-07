@@ -65,7 +65,7 @@ public class CourseSchedule {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         List<Integer>[] adj = new ArrayList[numCourses];
      for(int i=0;i<numCourses;i++){
-         adj[i]=new ArrayList();
+         adj[i] = new ArrayList();
      }
      int[] indegree = new int[numCourses];
      for(int[] i: prerequisites){
