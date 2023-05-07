@@ -67,7 +67,7 @@ public class CourseSchedule {
      for(int i=0;i<numCourses;i++){
          adj[i]=new ArrayList();
      }
-     int[] indegree=new int[numCourses];
+     int[] indegree = new int[numCourses];
      for(int[] i: prerequisites){
          adj[i[0]].add(i[1]);
          indegree[i[1]]++;
