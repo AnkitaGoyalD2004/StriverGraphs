@@ -26,6 +26,7 @@ public class AlienDictionary {
         }
         return adj;
     }
+    
 
     public static void constIndegree(ArrayList<ArrayList<Integer>> adj, int V) {
         indegree = new int[V];
