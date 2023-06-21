@@ -1,6 +1,7 @@
 package StriverGraph;
 import java.util.*;
 class xy{
+	
     int node;
     int distance;
     public xy(int distance , int node){
