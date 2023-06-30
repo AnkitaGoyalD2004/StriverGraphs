@@ -2,8 +2,7 @@ package StriverGraph;
 
 import java.util.*;
 
-public class AlienDictionary
-    
+public class AlienDictionar;
 {
     public static void main(String[] args){
 
