@@ -1,5 +1,4 @@
 package StriverGraph; 
-
 import java.util.*;
 public class CourseSchedule2 {
     public static void main(String[]args){
