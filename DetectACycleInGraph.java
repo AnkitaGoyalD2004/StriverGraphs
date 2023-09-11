@@ -1,6 +1,5 @@
 package StriverGraph;
 import java.util.*;
-
 class myPair {
     int x;
     int y;
