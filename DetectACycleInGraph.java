@@ -3,7 +3,6 @@ import java.util.*;
 class myPair {
     int x;
     int y;
-
     myPair(int x, int y) {
         this.x = x;
         this.y = y;
