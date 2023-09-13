@@ -42,25 +42,25 @@ public class CourseSchedule {
     //     }
     // }
 
-    // public static void bfs(int V, ArrayList<ArrayList<Integer>> adj) {
-    //     Queue<Integer> q = new LinkedList<>();
-    //     for (int i = 0; i < V; i++) {
-    //         if (inDegree[i] == 0) {
-    //             q.add(i);
-    //         }
-    //     }
-    //     int count =0;
-    //     while (!q.isEmpty()) {
-    //         int currentNode = q.poll();
-    //         count++;
-    //         for (int j : adj.get(currentNode)) {
-    //             inDegree[j]--;
-    //             if (inDegree[j] == 0) {
-    //                 q.add(j);
-    //             }
-    //         }
-    //     }
-    // }
+    public static void bfs(int V, ArrayList<ArrayList<Integer>> adj) {
+        Queue<Integer> q = new LinkedList<>();
+        for (int i = 0; i < V; i++) {
+            if (inDegree[i] == 0) {
+                q.add(i);
+            }
+        }
+        int count =0;
+        while (!q.isEmpty()) {
+            int currentNode = q.poll();
+            count++;
+            for (int j : adj.get(currentNode)) {
+                inDegree[j]--;
+                if (inDegree[j] == 0) {
+                    q.add(j);
+                }
+            }
+        }
+    }
 
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         List<Integer>[] adj = new ArrayList[numCourses];
