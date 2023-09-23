@@ -1,5 +1,7 @@
 package StriverGraph;
+
 import java.util.*;
+
 public class DetectACycle {
 
     static int indegree[];
