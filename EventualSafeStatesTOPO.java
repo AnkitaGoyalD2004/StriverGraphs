@@ -12,7 +12,6 @@ public class EventualSafeStatesTOPO {
      inDegree(graph.length,adj);
      ArrayList<Integer> a = bfs(graph.length,adj);
      return a;
-        
     } 
 
     public static ArrayList<ArrayList<Integer>> construct(int graph[][]){
