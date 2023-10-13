@@ -13,7 +13,7 @@ public class EventualSafeStatesTOPO {
      ArrayList<Integer> a = bfs(graph.length,adj);
      return a;
     } 
-    
+
     public static ArrayList<ArrayList<Integer>> construct(int graph[][]){
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
         for (int i = 0; i < graph.length; i++) {
