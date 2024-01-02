@@ -6,6 +6,7 @@ public class AlienDictionar;
     // public static void main(String[] args){
 
     // }
+    
     public  static int indegree[];
     public static ArrayList<ArrayList<Integer>> getAdj(int K , String[] dic){
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
